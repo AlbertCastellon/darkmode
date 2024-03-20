@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+body.dark {
+    color: white;
+    background-color: black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    align-self: center;
+}
+
+header .toggle {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    background-color: #cbcbcb;
+    height: 30px;
+    width: 60px;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-right: 10px;
+    display: flex;
+}
+.circle {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ffd001;
+    align-self: center;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear 0.3s;
+}
+.circle img {
+    width: 18px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    width: 95%;
+}
+.chinatown-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+#h1-main {
+    font-size: 40px;
+}
+.luna {
+    background-color: #0c62d2;
+    transform: translateX(32px);
+}
+h1.dark {
+    color: #ffe324;
+    
+}
